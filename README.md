@@ -1,2 +1,3 @@
 # ejb_exporter
-Export ejb metrics for prometheus
+Export ejb metrics from oracle table to prometheus
+
