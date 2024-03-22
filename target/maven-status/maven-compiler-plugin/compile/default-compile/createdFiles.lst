@@ -1,0 +1,10 @@
+com\example\ejbexporter\repository\FVMMonitoringRepository.class
+com\example\ejbexporter\controller\HelloController.class
+com\example\ejbexporter\service\FVMMonitorResultService.class
+com\example\ejbexporter\repository\FVMMonitorResultRepository.class
+com\example\ejbexporter\service\MetricsService.class
+com\example\ejbexporter\controller\MetricsController.class
+com\example\ejbexporter\model\FVMMonitorResult.class
+com\example\ejbexporter\service\FVMMonitoringService.class
+com\example\ejbexporter\model\FVMMonitoring.class
+com\example\ejbexporter\EjbExporterApplication.class
