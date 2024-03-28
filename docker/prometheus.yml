@@ -7,5 +7,5 @@ scrape_configs:
       - targets: ['apache-exporter:9117']
   - job_name: 'ejb-exporter'
     static_configs:
-      - targets: ['172.17.0.1:7001']
+      - targets: ['host.docker.internal:7001']
     metrics_path: /ejb_exporter-0.0.1-SNAPSHOT/metrics
