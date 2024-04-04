@@ -36,7 +36,7 @@ public class EjbExporterApplication extends SpringBootServletInitializer impleme
 			System.setProperty("java.naming.factory.initial", "weblogic.jndi.WLInitialContextFactory");
 			InitialContext context = new InitialContext();
 			// Use the full JNDI name including the application and module names
-			return (DataSource) context.lookup("jdbc/myDemoDs");
+			return (DataSource) context.lookup("jdbc/ekpDataSource");
 		} catch (NamingException e) {
 			throw new RuntimeException("Failed to lookup DataSource", e);
 		}
